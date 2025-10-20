@@ -1,0 +1,39 @@
+.header {
+    height: 74px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(187, 186, 186);
+    gap: 20px;
+}
+
+.container ul {
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    color: black;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+    flex-grow: 1;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.container li {
+    display: flex;
+    padding: 0 10px;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+.btnNav {
+    display: flex;
+    gap: 10px;
+}
