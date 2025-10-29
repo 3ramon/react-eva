@@ -27,9 +27,9 @@ export function NavBar() {
                 </ul>
 
                 <div className="btnNav">
-                    <Button nome="Cadastro" />
+                    <Button nome="Cadastro" mensagem="Cadastro..."/>
 
-                    <Button nome="Login" />
+                    <Button nome="Login" mensagem="Fazedo login..."/>
                 </div>
             </nav>
         </header>

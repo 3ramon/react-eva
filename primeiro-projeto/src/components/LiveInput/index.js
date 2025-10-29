@@ -4,11 +4,6 @@ export function LiveInput({}) {
     const [texto, setTexto] = useState("");
     // A variável nome guarda o valor atual (começando com 'João') e setNome é a função para mudar esse valor.
 
-    function comprimento(nomeBtn) {
-        // setNome()
-        alert(`Olá ${nomeBtn}`)
-    }
-
     function handleChange(event) {
         // 'event.target.value' é o texto atual dentro do <input>
         const novoTexto = event.target.value;

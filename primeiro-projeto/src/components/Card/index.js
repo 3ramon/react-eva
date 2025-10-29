@@ -1,9 +1,17 @@
-import React from "react";
+import "./style.css";
 
-export function Card() {
+export function Card({ nome, foto, numero }) {
     return (
-        <header>
-            <div>Card</div>
-        </header>
+        <div
+            id="load-api"
+            className="cardContainer"
+            onClick={() => {
+                alert("clicou no card");
+            }}
+        >
+            <img src={foto} className="imgPok" />
+            <div className="numero">Nº {numero}</div>
+            <div className="nome">{nome}</div>
+        </div>
     );
 }

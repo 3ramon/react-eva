@@ -1,0 +1,43 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(145, 255, 117);
+    transition: background-color 0.2s ease;
+    border-radius: 20px;
+    border: 2px solid rgb(58, 112, 53);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+.cardContainer:hover {
+    background-color: rgb(83, 139, 69);
+    border: 2px solid rgb(15, 71, 10);
+    cursor: pointer;
+}
+
+.imgPok {
+    max-width: 140px;
+}
+
+.numero {
+    width: 100%;
+    margin-left: 20px;
+    text-align: left;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nome {
+    width: 100%;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 28px;
+}

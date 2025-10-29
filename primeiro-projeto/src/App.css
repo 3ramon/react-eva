@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.cardsContainers {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +41,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btnLol {
+    background-color: #f9fd00;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin-top: 20px;
+    color: #817906;
+    width: 120px;
+    height: 52px;
+    border-radius: 5px;
+    border: 2px solid #e4c412;
+}
+
